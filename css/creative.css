@@ -3,6 +3,7 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+/*#32579c*/
 html,
 body {
   height: 100%;
@@ -12,22 +13,28 @@ body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 hr {
-  border-color: #F05F40;
+  border-color: #32599e;
   border-width: 3px;
   max-width: 50px;
 }
 hr.light {
   border-color: white;
 }
+.onehund{
+    height: 100%;
+}
 a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #F05F40;
+  color: #32599e;
+}
+#mainNav{
+    background-color: rgba(211,211,211, 0.5);
 }
 a:hover,
 a:focus {
-  color: #eb3812;
+  color: white;
 }
 h1,
 h2,
@@ -43,7 +50,7 @@ p {
   margin-bottom: 20px;
 }
 .bg-primary {
-  background-color: #F05F40;
+  background-color: #32599e;
 }
 .bg-dark {
   background-color: #222222;
@@ -70,7 +77,7 @@ aside {
   transition: all 0.35s;
 }
 .navbar-default .navbar-header .navbar-brand {
-  color: #F05F40;
+  color: #32599e;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -94,11 +101,11 @@ aside {
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #F05F40;
+  color: #32599e;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #F05F40 !important;
+  color: #32599e !important;
   background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
@@ -130,7 +137,7 @@ aside {
     border-color: rgba(34, 34, 34, 0.05);
   }
   .navbar-default.affix .navbar-header .navbar-brand {
-    color: #F05F40;
+    color: #32599e;
     font-size: 14px;
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
@@ -143,7 +150,7 @@ aside {
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
-    color: #F05F40;
+    color: #32599e;
   }
 }
 header {
@@ -155,7 +162,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/header.jpg');
+  background-image: url('../img/as-is-band-cover.png');
   text-align: center;
   color: white;
 }
@@ -233,7 +240,7 @@ header .header-content .header-content-inner p {
   color: white;
   opacity: 0;
   display: block;
-  background: rgba(240, 95, 64, 0.9);
+  background: #32599e;
   position: absolute;
   bottom: 0;
   text-align: center;
@@ -281,7 +288,7 @@ header .header-content .header-content-inner p {
   margin: 0 auto 20px;
 }
 .text-primary {
-  color: #F05F40;
+  color: #32599e;
 }
 .no-gutter > [class*='col-'] {
   padding-right: 0;
@@ -337,8 +344,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: white;
-  background-color: #F05F40;
-  border-color: #F05F40;
+  background-color: #32599e;
+  border-color: #32599e;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
@@ -350,8 +357,9 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #ee4b28;
-  border-color: #ed431f;
+  background-color: white;
+  border-color: #32599e;
+  color:#32599e;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -376,11 +384,11 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #F05F40;
-  border-color: #F05F40;
+  background-color: #32599e;
+  border-color: #32599e;
 }
 .btn-primary .badge {
-  color: #F05F40;
+  color: #32599e;
   background-color: white;
 }
 .btn {
